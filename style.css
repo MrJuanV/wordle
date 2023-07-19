@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(./selva.png);
+  background-size: 30%;
+  }
+  #instrucciones {
+    
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    line-height: 30px;
+
+  float: right;
+  margin-top: 60px;
+  margin-right: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  
+  
+  }
+  #juego{
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    bottom: -5%;
+    left: 20%;
+    right: -1%;
+   
+  }  
+  
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+    
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+  
+   
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 30px;
+      text-align: center;
+      display: inline-block
+  }
+  #grid {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    background: none;
+    width: 30vw;
+    height: 45vh;
+    inset: 0
+    
+  }
+ 
+  
+     
+  .row{
+      margin-bottom: 20px;
+  }
+     
+  .input-area{
+      margin: 60px;
+  }

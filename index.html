@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"defer></script>
+</head>
+<body>
+<div id="instrucciones">
+    <h2>Introduccion del juego</h2>
+    <P>Wordle es un juego de adivinanzas muy popular y muy <br> divertido para pasar el rato con amigos
+         o para matar el aburrimiento.</P>
+        <h2>Reglas del juego</h2> 
+        <ol>
+            <li>Adivinar una palabra de 5 letras</li>
+            <li>Si la letra esta verde la palabra esta en su lugar</li>
+            <li>Si la letra esta amarilla la letra existe en la palabra <br> pero no esta en su lugar</li>
+            <li>Si la letra esta gris la letra no existe en la plabra</li>
+            <li>Tienes 6 oportunidades</li>
+            <li>No se vale aburrirse</li>
+        </ol>
+</div>
+<div id="juego">
+         <h1>Wordle </h1>
+    
+         <input maxlength="5"pattern="[0-4]" type="text" id="guess-input">
+        <Button id="guess-button"> Intentar </Button>
+        <div id="grid">
+        
+        </div>
+         <p id="guesses"> 
+        </p>
+</div>
+</body>
+</html>
